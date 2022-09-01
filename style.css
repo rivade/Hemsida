@@ -1,5 +1,7 @@
 body {
     background-image: url(restaurang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -34,4 +36,34 @@ a {
 a:hover {
     text-decoration: none;
     color: blue;
+}
+
+.bilder {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    place-items: center;
+}
+
+.bilder img {
+    height: 200px;
+    width: 200px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.info {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.learnMore {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: #000;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
 }
