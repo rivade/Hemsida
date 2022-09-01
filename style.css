@@ -1,0 +1,37 @@
+body {
+    background-image: url(restaurang.jpg);
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: lighter;
+    font-family: fantasy;
+    color: white;
+    text-shadow: -2px -2px #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
+    text-align: center;
+    background-image: url(beachparty.jpg);
+    width: 70%;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.menu {
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-color: #000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
