@@ -67,3 +67,7 @@ a:hover {
     border-radius: 20px 20px 20px 20px;
     margin: auto;
 }
+
+.back {
+    color: blue;
+}
